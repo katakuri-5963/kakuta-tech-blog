@@ -132,9 +132,9 @@ types/                     # microCMS レスポンスの型
 
 ## 連絡先・運営者
 
-- サイト運営: 角田（かくた）
-- [X (Twitter): @_kakuta0915_](https://twitter.com/_kakuta0915_)
-- [Qiita: kakuta0915](https://qiita.com/kakuta0915) – 記事のサイド導線にも表示
+- サイト運営: かたくり
+- [X (Twitter): @katakuri_5963](https://x.com/katakuri_5963)
+- [Qiita: katakuri_5963](https://qiita.com/katakuri_5963)
 
 ---
 
