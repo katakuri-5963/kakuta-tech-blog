@@ -8,7 +8,7 @@ import * as Ui from '@/components/ui'
 import styles from './page.module.scss'
 import { Posts } from '@/types'
 import eyecatch from '@/public/images/index.jpg'
-import kakuta0915 from '@/public/images/kakuta0915.png'
+import katakuri_5963 from '@/public/images/katakuri_5963.png'
 
 export const metadata: Metadata = createMetadata({
   pageTitle: 'TOP',
@@ -27,8 +27,8 @@ export default async function HomePage() {
     <>
       <Ui.StickyHeader />
       <Ui.Hero
-        title="KAKUTA"
-        title2="TECH BLOG"
+        title="KATAKURI"
+        title2="LOG"
         description="このサイトでは、Next.jsとmicroCMSを組み合わせ、プログラミングの技術ブログを制作しました。 学習したことをアウトプットしたり、学習時に躓いた箇所や解決策について、詳細な記事をまとめています。"
         imageSrc={eyecatch.src}
         contact={true}
@@ -42,8 +42,8 @@ export default async function HomePage() {
           </p>
           <Image
             className={styles['profileIcon']}
-            src={kakuta0915}
-            alt="角田のプロフィールアイコン"
+            src={katakuri_5963}
+            alt="かたくりのプロフィールアイコン"
             objectFit="contain"
             priority
             placeholder="blur"
