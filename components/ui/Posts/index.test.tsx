@@ -65,7 +65,7 @@ describe('Posts Component', () => {
     const link = screen.getByText('Post Title 2').closest('a')
     expect(link).toHaveAttribute(
       'href',
-      'https://qiita.com/kakuta0915/items/post-title-2',
+      'https://qiita.com/katakuri_5963/items/post-title-2',
     )
   })
 })

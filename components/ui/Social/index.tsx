@@ -17,7 +17,7 @@ const Social: React.FC<SocialProps> = ({ className, isFooterSocial }) => {
     <div className={`${containerClass} ${className}`} data-testid="social">
       <Link
         className={styles['link']}
-        href="https://twitter.com/_kakuta0915_"
+        href="https://x.com/katakuri_5963"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -31,7 +31,7 @@ const Social: React.FC<SocialProps> = ({ className, isFooterSocial }) => {
       </Link>
       <Link
         className={styles['link']}
-        href="https://github.com/kakuta0915"
+        href="https://github.com/katakuri-5963"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -45,7 +45,7 @@ const Social: React.FC<SocialProps> = ({ className, isFooterSocial }) => {
       </Link>
       <Link
         className={styles['link']}
-        href="https://qiita.com/kakuta0915"
+        href="https://qiita.com/katakuri_5963"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -59,7 +59,7 @@ const Social: React.FC<SocialProps> = ({ className, isFooterSocial }) => {
       </Link>
       <Link
         className={styles['link']}
-        href="https://zenn.dev/kakuta0915"
+        href="https://zenn.dev/katakuri_5963"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -1,4 +1,4 @@
-# KAKUTA TECH BLOG
+# Katakuri Log
 
 <img src="/public/images/ogp.jpg" width="100%" />
 
@@ -6,13 +6,14 @@
 
 ## プロジェクト概要
 
-**KAKUTA TECH BLOG**は、Next.js 14 (App Router)と microCMS を組み合わせた技術ブログです。学習中に躓いた箇所や、開発過程で遭遇した問題、それに対する解決策を紹介しています。
+**Katakuri Log**は、Next.js 14 (App Router)と microCMS を組み合わせた技術ブログです。学習中に躓いた箇所や、開発過程で遭遇した問題、それに対する解決策を紹介しています。
 
 ---
 
 ## 公開情報
 
-- **サイト URL**: https://kakuta-tech-blog.vercel.app
+<!-- - **サイト URL**: 後で修正 -->
+
 - **ホスティング**: Vercel
 
 ---
@@ -84,6 +85,7 @@ types/                     # microCMS レスポンスの型
 
 1. Node.js 22 系を用意（例: `nvm use 22`）
 2. リポジトリを取得
+   <!-- 後で修正 -->
    ```bash
    git clone https://github.com/kakuta0915/kakuta-tech-blog.git
    cd kakuta-tech-blog

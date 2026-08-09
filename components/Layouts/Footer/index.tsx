@@ -5,7 +5,7 @@ import styles from './index.module.scss'
 const Footer: React.FC = () => {
   return (
     <footer className={styles['footer']}>
-      <h1>KAKUTA TECH BLOG</h1>
+      <h1>Katakuri Log</h1>
       <Social isFooterSocial={true} />
     </footer>
   )

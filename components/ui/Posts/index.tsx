@@ -33,7 +33,7 @@ const Posts: React.FC<PostsProps> = ({
                 className={styles['link']}
                 href={
                   source === 'qiita'
-                    ? `https://qiita.com/kakuta0915/items/${slug}`
+                    ? `https://qiita.com/katakuri_5963/items/${slug}`
                     : `/articles/${slug}`
                 }
               >
