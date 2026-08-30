@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import ConvertDate from '@/features/article/components/Convert/ConvertDate'
 import styles from './index.module.scss'
-import qiitaImg from '@/public/images/qiitaEyecatch.png'
 import { PostsProps } from '@/types'
 
 const Posts: React.FC<PostsProps> = ({
@@ -27,19 +26,12 @@ const Posts: React.FC<PostsProps> = ({
     <>
       <div className={`${className} ${styles['postsContainer']}`}>
         {articles.map(
-          ({ title, slug, eyecatch, publishDate = '', categories, source }) => (
+          ({ title, slug, eyecatch, publishDate = '', categories }) => (
             <article key={slug}>
-              <Link
-                className={styles['link']}
-                href={
-                  source === 'qiita'
-                    ? `https://qiita.com/katakuri_5963/items/${slug}`
-                    : `/articles/${slug}`
-                }
-              >
+              <Link className={styles['link']} href={`/articles/${slug}`}>
                 <figure>
                   <Image
-                    src={source === 'qiita' ? qiitaImg : eyecatch.url}
+                    src={eyecatch.url}
                     alt=""
                     fill
                     style={{ objectFit: 'cover' }}
