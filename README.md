@@ -1,4 +1,4 @@
-# Katakuri Log
+# Katakuri Tech Log
 
 <img src="/public/images/ogp.jpg" width="100%" />
 
@@ -6,7 +6,7 @@
 
 ## プロジェクト概要
 
-**Katakuri Log**は、Next.js 14 (App Router)と microCMS を組み合わせた技術ブログです。学習中に躓いた箇所や、開発過程で遭遇した問題、それに対する解決策を紹介しています。
+**Katakuri Tech Log**は、Next.js 14 (App Router)と microCMS を組み合わせた技術ブログです。学習中に躓いた箇所や、開発過程で遭遇した問題、それに対する解決策を紹介しています。
 
 ---
 

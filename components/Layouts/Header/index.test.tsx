@@ -4,7 +4,7 @@ import Header from './index'
 describe('Headerコンポーネント', () => {
   it('ヘッダーのテキストが表示される', () => {
     render(<Header />)
-    const heading = screen.getByRole('heading', { name: /Katakuri Log/i })
+    const heading = screen.getByRole('heading', { name: /Katakuri Tech Log/i })
     expect(heading).toBeInTheDocument()
   })
 

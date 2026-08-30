@@ -27,7 +27,7 @@ export default async function HomePage() {
     <>
       <Ui.StickyHeader />
       <Ui.Hero
-        title="Katakuri Log"
+        title="Katakuri Tech Log"
         // title2="LOG"
         description="このサイトでは、Next.jsとmicroCMSを組み合わせ、プログラミングの技術ブログを制作しました。 学習したことをアウトプットしたり、学習時に躓いた箇所や解決策について、詳細な記事をまとめています。"
         imageSrc={eyecatch.src}

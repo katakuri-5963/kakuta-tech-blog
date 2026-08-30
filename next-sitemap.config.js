@@ -2,7 +2,7 @@
 //  @type {import('next-sitemap').IConfig}
 
 const config = {
-  siteUrl: 'https://katakuri-log.vercel.app',
+  siteUrl: 'https://katakuri-tech-log.vercel.app',
   outDir: './out',
   exclude: ['/sitemap.xml'],
   robotsTxtOptions: {},
