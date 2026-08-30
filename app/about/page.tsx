@@ -5,7 +5,7 @@ import { createMetadata } from '@/libs/seo'
 import * as UiComponents from '@/components/ui'
 import styles from './page.module.scss'
 import eyecatch from '@/public/images/about.jpg'
-import kakuta0915 from '@/public/images/kakuta0915.png'
+import katakuri_5963 from '@/public/images/katakuri_5963.png'
 
 export const metadata: Metadata = createMetadata({
   pageTitle: 'ABOUT',
@@ -40,7 +40,7 @@ const AboutPage: React.FC = () => {
           <figure>
             <Image
               className={styles['profileImage']}
-              src={kakuta0915}
+              src={katakuri_5963}
               alt="プロフィール画像"
               objectFit="contain"
               priority
@@ -53,17 +53,15 @@ const AboutPage: React.FC = () => {
           <p>
             閲覧ありがとうございます。
             <br />
-            当サイトの管理をしている角田 (かくた)です。
+            このサイトを運営している かたくりです。
             <a
               className={styles['profileName']}
-              href="https://twitter.com/_kakuta0915_"
+              href="https://x.com/katakuri_5963"
               target="_blank"
               rel="noreferrer"
             >
-              (@_kakuta0915_)
+              (@katakuri_5963)
             </a>
-            <br />
-            Webエンジニアを目指し、日々学習に励んでいます。
             <br />
             よろしくお願いいたします。
           </p>

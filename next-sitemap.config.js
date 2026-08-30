@@ -2,12 +2,10 @@
 //  @type {import('next-sitemap').IConfig}
 
 const config = {
-  siteUrl: 'https://kakuta-programming-blog',
+  siteUrl: 'https://katakuri-tech-log.vercel.app',
   outDir: './out',
   exclude: ['/sitemap.xml'],
-  robotsTxtOptions: {
-    additionalSitemaps: ['https://kakuta-programming-blog/sitemap.xml'],
-  },
+  robotsTxtOptions: {},
 }
 
 module.exports = config

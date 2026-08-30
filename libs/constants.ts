@@ -1,7 +1,7 @@
 export const siteMeta = {
-  siteTitle: 'KAKUTA TECH BLOG',
-  siteDesc: '独学でプログラミング学習しているサイト主の個人ブログサイト',
-  siteUrl: 'https://kakuta-tech-blog',
+  siteTitle: 'Katakuri Tech Log',
+  siteDesc: '独学でプログラミングを学ぶ運営者の技術ブログサイト',
+  siteUrl: 'https://katakuri-tech-log.vercel.app',
   siteLang: 'ja',
   siteLocale: 'ja_JP',
   siteType: 'website',
